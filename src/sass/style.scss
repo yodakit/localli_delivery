@@ -1,0 +1,11 @@
+* {
+    font-family: 'Roboto';
+}
+.container {
+    max-width: 1270px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/titles';
+@import 'blocks/introducing';

@@ -1,0 +1,32 @@
+.header {
+    min-height: 93px;
+    padding: 25px 100px;
+    &__content {
+        height: 43px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__menu {
+        min-width: 382px;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            li {
+                list-style-type: none;
+            }
+        }
+    }
+    &__item {
+        font-size: 15px;
+        color: #000000;
+        &-active {
+            color: #FFFFFF;
+            padding: 12px 32px;
+            background-color: #000000;
+            border: 2px solid #000000;
+            box-sizing: border-box;
+            border-radius: 25px;
+        }
+    }
+}

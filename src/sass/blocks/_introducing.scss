@@ -1,0 +1,48 @@
+.introducing {
+    padding: 55px 85px 35px 85px;
+    &__subtitle {
+        margin-top: 5px;
+        font-size: 64px;
+        line-height: 77px; 
+        text-align: center;
+        color: #000000;
+    }
+    &__descr {
+        margin-top: 23px;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #212529;
+    }
+    &__menu {
+        margin-top: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        :first-child {
+            margin-right: 36px;
+        }
+    }
+    &__advantages {
+        margin-top: 55px;
+        padding: 0 178px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        img {
+
+            margin-right: 10px;
+        }
+    }
+    &__image {
+        margin-top: 40px;
+        max-width: 1240px;
+        max-height: 528px;
+        img {
+            width: 100%;
+        }
+    }
+}
