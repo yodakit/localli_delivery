@@ -1,10 +1,16 @@
 .delivery {
-   padding: 70px 0;
+   padding: 70px 85px;
    background-color: #FAFAFA;
    &__wrapper {
+       position: relative;
        display: flex;
        align-items: center;
        justify-content: center;
+    }
+    &__custom {
+        position: absolute;
+        left: 56px;
+        top: 405px;
     }
     &__payment {
         width: 402px;
