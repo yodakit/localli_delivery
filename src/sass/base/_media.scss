@@ -49,6 +49,9 @@
             left: 93px;
         }
     }
+    .map {
+        padding: 40px 100px 70px 100px;
+    }
 }
 @media (max-width: 991px) {
     .header {
@@ -141,6 +144,28 @@
         &__custom {
             top: 627px;
             left: 5px;
+        }
+    }
+    .map {
+        padding: 40px 60px 50px 60px;
+        &__subtitle {
+            font-size: 51px;
+            line-height: 48px;
+        }
+    }
+    .question {
+        padding: 0 60px 50px 60px;
+        &__subtitle {
+            font-size: 51px;
+            line-height: 48px;
+        }
+        &__content {
+            margin-top: 25px;
+        }
+        &__ask {
+            &-title {
+                font-size: 16px;
+            }
         }
     }
 }
@@ -244,6 +269,27 @@
         }
         &__payment {
             margin-top: 20px;
+        }
+    }
+    .map {
+        padding: 30px 40px 40px 40px;
+        &__descr {
+            font-size: 15px;
+            margin-top: 15px;
+        }
+        &__operating {
+            font-size: 15px;
+        }
+    }
+    .question {
+        padding: 30px 40px 40px 40px;
+        &__item {
+            height: 60px;
+        }
+        &__ask {
+            &-title {
+                font-size: 15px;
+            }
         }
     }
 }
@@ -398,6 +444,45 @@
         }
         label {
             font-size: 14px;
+        }
+    }
+    .map {
+        padding: 20px 20px 25px 20px;
+        &__subtitle {
+            font-size: 31px;
+            line-height: 31px;
+        }
+        &__descr {
+            font-size: 11px;
+            line-height: 14px;
+        }
+        &__operating {
+            font-size: 11px;
+            margin-top: 4px;
+        }
+    }
+    .question {
+        padding: 20px 20px 25px 20px;
+        &__subtitle {
+            font-size: 31px;
+            line-height: 31px;
+        }
+        &__content {
+            margin-top: 15px;
+        }
+        &__item {
+            height: 35px;
+        }
+        &__ask {
+            &-title {
+                font-size: 10px;
+            }
+        }
+        &__arrow {
+            width: 7px;
+            height: 7px;
+            border-right: 2px solid black;
+            border-top: 2px solid black;
         }
     }  
 }
