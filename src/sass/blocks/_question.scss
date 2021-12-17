@@ -1,0 +1,35 @@
+.question {
+    padding-bottom: 90px;
+    &__subtitle {
+        margin-top: 4px;
+        font-size: 61px;
+        text-align: center;
+        color: #000000;
+    }
+    &__content {
+        max-width: 750px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    &__item {
+        padding: 0 10px;
+        height: 73px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid #000000;
+    }
+    &__ask {
+        &-title {
+            font-size: 20px;
+            color: #000000;  
+        }
+    }
+    &__arrow {
+        width: 10px;
+        height: 10px;
+        border-right: 3px solid black;
+        border-top: 3px solid black;
+        transform: rotate(135deg);
+    }
+}
