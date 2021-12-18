@@ -1,0 +1,32 @@
+.start {
+    &__wrapper {
+        background-color: #FBFBFB;
+        border-radius: 25px;
+        padding: 90px 7px 90px 75px;
+        max-width: 1240px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__content {
+        max-width: 579px;
+    }
+    &__subtitle {
+        font-size: 61px;
+        line-height: 73px;
+        color: #000000;
+    }
+    &__descr {
+        margin: 20px 0 31px 0;
+        max-width: 510px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #212529;
+    }
+    &__img {
+        max-width: 549px;
+        img {
+            width: 100%;
+        }
+    }
+}
